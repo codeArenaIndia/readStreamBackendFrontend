@@ -1,0 +1,23 @@
+{
+  "name": "tech-talk-streams",
+  "version": "1.0.0",
+  "description": "",
+  "main": "emoji-server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "emojify": "./emojiProcess.js"
+  },
+  "bin": {
+    "emojify": "./emojiProcess.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "concat-stream": "^1.6.0",
+    "fs": "0.0.1-security",
+    "http": "0.0.0",
+    "split": "^1.0.0",
+    "through2": "^2.0.5",
+    "through2-map": "^3.0.0"
+  }
+}
